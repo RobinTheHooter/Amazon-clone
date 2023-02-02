@@ -1,0 +1,14 @@
+.error-msg {
+  margin-top: 0;
+  color: red;
+  font-size: 15px;
+  display: none;
+}
+
+.form-input:invalid[focused="true"] {
+  border: 1px solid red;
+}
+
+.form-input:invalid[focused="true"] ~ span {
+  display: block;
+}

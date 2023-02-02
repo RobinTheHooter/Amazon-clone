@@ -1,0 +1,60 @@
+export const loginInputs = [
+  {
+    id: 1,
+    name: "email",
+    type: "email",
+    placeholder: "E-mail",
+    errorMessage: "Invalid E-mail.",
+    label: "E-mail",
+    required: true,
+  },
+  {
+    id: 2,
+    name: "password",
+    type: "password",
+    placeholder: "Password",
+    errorMessage: "Invalid Password.",
+    label: "Password",
+    required: true,
+  },
+];
+
+export const registerInputs = [
+  {
+    id: 1,
+    name: "name",
+    type: "text",
+    placeholder: "First and Last Name",
+    errorMessage: "Name is required!",
+    label: "Your Name",
+    required: true,
+  },
+  {
+    id: 2,
+    name: "phoneNumber",
+    type: "text",
+    placeholder: "Phone number",
+    errorMessage: "Invalid format!",
+    label: "Mobile number",
+    pattern: `^[0-9]{10,11}$`,
+    required: true,
+  },
+  {
+    id: 3,
+    name: "email",
+    type: "email",
+    placeholder: "E-mail",
+    errorMessage: "E-mail is required!",
+    label: "E-mail",
+    required: true,
+  },
+  {
+    id: 4,
+    name: "password",
+    type: "password",
+    placeholder: "Password",
+    errorMessage: "Password is required!",
+    label: "Password",
+    required: true,
+  },
+];

@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+}
+
+.checkout-link,
+.login-link,
+.orders-link,
+.product-link,
+.see-more {
+  text-decoration: none;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
